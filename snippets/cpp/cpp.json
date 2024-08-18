@@ -2,7 +2,7 @@
 	"Starter Template": {
 		"prefix": "st",
 		"body": [
-			"#include <bits/stdc++.h>",
+			"#include <iostream>",
 			"",
 			"int main (int argc, char *argv[]) {",
 			"\tstd::ios::sync_with_stdio(0), std::cout.tie(0), std::cin.tie(0);",
