@@ -9,20 +9,19 @@
         "body": ["/*$0", " */"],
         "description": "Convenient multiline comment"
     },
-    "Starter Template": {
-        "prefix": "st",
-        "body": [
-            "#include <stdbool.h>",
+	"Starter Template": {
+		"prefix": "st",
+		"body": [
             "#include <stdio.h>",
-            "#include <stdlib.h>",
-            "",
-            "int main(int argc, char *argv[])",
-            "{$0",
-            "\treturn EXIT_SUCCESS;",
-            "}"
-        ],
-        "description": "Standard starter template for a tiny C program"
-    },
+			"",
+			"int main (int argc, char *argv[]) {",
+			"\t$1",
+			"",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Standard starter template for a tiny C program"
+	},
     "Preprocessor Starter Template": {
         "prefix": "#st",
         "body": [

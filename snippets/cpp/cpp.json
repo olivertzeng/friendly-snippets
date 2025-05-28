@@ -1,17 +1,18 @@
 {
-    "Starter Template": {
-    "prefix": "st",
-    "body": [
-        "#include <iostream>",
-        "",
-        "int main (int argc, char *argv[]) {",
-            "\t$1",
-            "",
-            "\treturn 0;",
-        "}"
-        ],
-        "description": "Standard starter template for a tiny C++ program"
-    },
+	"Starter Template": {
+		"prefix": "st",
+		"body": [
+			"#include <iostream>",
+			"",
+			"int main (int argc, char *argv[]) {",
+			"\tstd::ios::sync_with_stdio(0), std::cout.tie(0), std::cin.tie(0);",
+			"\t$1",
+			"",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Standard starter template for a tiny C++ program"
+	},
     "for": {
         "prefix": "for",
         "body": [
